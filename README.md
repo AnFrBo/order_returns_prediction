@@ -6,7 +6,7 @@ In order to access this information, I build a targeting model to return the lik
 
 With my final model which was an ensemble of differently tuned xgboosts and random forests, the AUC of my prediction was 0.73725 and within the top 20% of 178 participants.
 
-The full description of the kaggle challenge as well as the data and leaderboard can be accessed [here](https://www.kaggle.com/c/bads1920/leaderboard).
+The full description of the kaggle challenge as well as the data and leaderboard can be accessed [here](https://www.kaggle.com/c/bads1920/overview).
 
 All code was written in RStudio.
 
@@ -24,7 +24,7 @@ __Semester:__ WS 2019/20 <br>
 .
 ├── data                  # folder with original data sets and cleaned, engineered data that are outputted by the data_preparation file
 ├── code                  # folder with file containing data cleaning, prep and feature engineering (= data_preparation.R) plus file containing model tuning, train, selection and the code for the final prediction (= model&prediction.R)
-├── final_prediction.csv  # final prediction that was handed in for the evaluationa at the [kaggle challenge](https://www.kaggle.com/c/bads1920/overview)
+├── final_prediction.csv  # final prediction that was handed in for the kaggle challenge
 ├── README.md             # this readme file
 ├── requirements.txt      # contains all used libraries
 ├── setup.txt             # describes execution of pipeline in detail
