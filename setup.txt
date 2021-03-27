@@ -1,0 +1,9 @@
+Setup
+
+I. Download data folder
+
+II. Installing all libraries specified in requirements.txt
+
+III. Set wd to data folder
+
+IV. Run R files (if you want to skip the data_preparation part, you can directly proceed with the cleaned and feature-engineered data sets "known_clean.csv" and "unknown_clean.csv" in "models&prediction.R")
