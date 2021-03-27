@@ -22,11 +22,12 @@ __Semester:__ WS 2019/20 <br>
 
 ```
 .
-├── data               # folder with original data sets and cleaned, engineered data that are outputted by the data_preparation file
-├── code               # folder with file containing data cleaning, prep and feature engineering (= data_preparation.R) plus file containing model tuning, train, selection and the code for the final prediction (= model&prediction.R)
-├── README.md          # this readme file
-├── requirements.txt   # contains all used libraries
-├── setup.txt          # describes execution of pipeline in detail
+├── data                  # folder with original data sets and cleaned, engineered data that are outputted by the data_preparation file
+├── code                  # folder with file containing data cleaning, prep and feature engineering (= data_preparation.R) plus file containing model tuning, train, selection and the code for the final prediction (= model&prediction.R)
+├── final_prediction.csv  # final prediction that was handed in for the evaluationa at the [kaggle challenge](https://www.kaggle.com/c/bads1920/overview)
+├── README.md             # this readme file
+├── requirements.txt      # contains all used libraries
+├── setup.txt             # describes execution of pipeline in detail
 
 ```
 
